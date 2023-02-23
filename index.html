@@ -3,60 +3,7 @@
 <head>
     
     <title>Passionate Drinks</title>
-    <style>
-        #nav-items li{
-            float: right;
-            margin-right: 20px; 
-            list-style: none;
-        }
-        #nav-items a{
-            color: darkgreen;
-            text-decoration: none;
-        }
-        #nav-items a:hover{
-            color: #fff;
-        }
-        nav{
-            background-color:orange;
-            padding-top: 2px;
-            padding-bottom: 2px;
-        }
-        #Header-Banner{
-            background-image: url(/011.jpg);
-            background-size: cover;
-            padding: 90px 0px 90px 0px;
-            text-align: center;
-        }
-        #Header-Banner h1{
-            color:white;
-            text-align: center;
-            font-size: 5vw;
-
-        }
-        #Header-Banner p{
-            color: rgb(222, 233, 222);
-            padding: 0px 60px 0px 60px;
-            text-align: center;
-            font-style: italic;
-            font-size: xx-large;
-        }
-        #Header-Banner button{
-            padding: 10px 25px 10px 25px;
-            background-color: white;
-            font-weight: bold;
-            color: darkgreen;
-        }
-        #Header-Banner button:hover{
-            background-color: darkgreen;
-            border-color: white;
-            color: white;
-        }
-        #header-content{
-            background-color: rgba(66, 57, 57, 0.458);
-            padding: 30px 0px 30px 0px;
-        }
-
-    </style>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <header>
@@ -64,9 +11,9 @@
             <ul id="nav-items">
                 <img src="/logo.jpg" style="height: auto; width: 10rem; margin-left: -30px;" alt="">
                 <li><a href="#">Place Order</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="index.html#contact">Contact</a></li>
                 <li><a href="#">Products</a></li>
-                <li><a href="#">About Us</a></li>
+                <li><a href="table.html">About Us</a></li>
                 <li><a href="#">Home</a></li>
             </ul>
         </nav>
@@ -84,6 +31,55 @@
             </div>
         </div>
     </header>
-    
+    <section id="aboutus">
+        <img src="/33.jpg" alt="">
+        <div id="aboutus-content">
+            <h3><b>About Us</b></h3>
+            <p>
+                Looking for where you can get your tasty, creamy natural drinks with no artificial addictives,<br> 
+                colors and preservatives? Passionate Drinks got you covered. With our varieties of natural drinks like <br>
+                hibiscus tea(zobo), Tiger nut milk shake, soy bean milk shake etc, you can give your tastebud a good <br>
+                treat without compromising the standard of nature.  
+            </p>
+        </div>
+    </section><br>
+
+    <section id="contact">
+        <form action="">
+            <h2>Contact Form</h2>
+           <div>
+            <div>
+                <input type="text" placeholder="Insert Full Name">
+            </div>
+            <div>
+                <input type="email" placeholder="Insert Email Address" >
+            </div>
+            <div>
+                <textarea name="" id="" cols="30" rows="10" placeholder="What's on Your Mind!"></textarea> 
+
+            </div>
+           </div>
+            <div>
+                <button>send message</button>
+            </div>
+        </form>
+    </section>
+
+   
 </body>
+<footer id="footer">
+    <nav id="nav-footer">
+        <ul>
+            <a href="">Place Order</a></li>
+            <a href="">Contact Us</a></li>
+            <a href="">Products</a></li>
+            <a href="table.html">About Us</a>
+            <a href="">Home</a>
+        </ul>
+        <h2>09035977231---pdrinks@gmail.com</h2>
+    </nav>
+    
+       
+
+</footer>
 </html>
